@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>eduSHARE</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+ <div id="top">
+ <span id="logo"><b>eduSHARE</b></span>
+  <input id="search" type="text" name="search" placeholder="Books..">
+  <button id="ssub" type="submit">Search</button>
+ </div>
+      <form action="index.html" method="post">
+      
+        <h1>Join eduSHARE</h1>
+        
+        <fieldset>
+          <legend><span class="number">1</span>Your basic info</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+          
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email">
+          
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="user_password">
+          
+          <label>Your profession:</label>
+          <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13" class="light">Student</label><br>
+          <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">Teacher</label>
+        </fieldset>
+        
+        <fieldset>
+          <legend><span class="number">2</span>Profile information</legend>
+		            <label for="univ">University:</label>
+          <input type="text" id="univ" name="univ">
+          
+          <label for="bio">Biography:</label>
+          <textarea id="bio" name="user_bio"></textarea>
+        </fieldset>
+        <fieldset>
+        <label for="job">Your field:</label>
+        <select id="job" name="user_job">
+          <optgroup label="Electrical Engineering">
+            <option value="frontend_developer">Simulation</option>
+            <option value="php_developor">Circuit Theory</option>
+            <option value="python_developer">Proteus</option>
+            <option value="rails_developer">AVR</option>
+          </optgroup>
+          <optgroup label="Electronics and Communication">
+            <option value="Android_developer">Semiconductor technology</option>
+            <option value="iOS_developer">Radar communication</option>
+            <option value="mobile_designer">Microwave</option>
+          </optgroup>
+          <optgroup label="Business">
+            <option value="business_owner">Accounting</option>
+            <option value="freelancer">Economics</option>
+          </optgroup>
+          <optgroup label="Others">
+            <option value="secretary">Mathematics</option>
+            <option value="maintenance">Physics</option>
+          </optgroup>
+        </select>
+        
+          <label>Interests:</label>
+          <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Programming</label><br>
+            <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Embedded System</label><br>
+          <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Microprocessor</label>
+        
+        </fieldset>
+        <button id="regb" type="submit" onclick="location.href='profile.html'">Sign Up</button>
+      </form>
+      
+    </body>
+	
+	<footer>
+	&copy; 2017 All rights reserved.
+	</footer>
+	
+</html>

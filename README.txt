@@ -1,0 +1,1 @@
+Some of the images/res are downloaded from different sources, I don't own them.
