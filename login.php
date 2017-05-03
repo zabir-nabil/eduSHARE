@@ -12,23 +12,23 @@
   <input id="search" type="text" name="search" placeholder="Books..">
   <button id="ssub" type="submit">Search</button>
  </div>
-      <form action="index.html" method="post">
+      <form action="redirect.php" method="post">
       
         <h1>Login to eduSHARE</h1>
         
         <fieldset>
          
           <label for="mail">Email:</label>
-          <input type="email" id="mail" name="user_email">
+          <input type="email" id="mail" name="email">
           
           <label for="password">Password:</label>
-          <input type="password" id="password" name="user_password">
+          <input type="password" id="password" name="password">
           
           </fieldset>
         
         
         </fieldset>
-        <button id="regb" type="submit" onclick="window.location.href='profile.html' ">Submit</button>
+        <button id="regb" type="submit">Submit</button>
       </form>
       
     </body>

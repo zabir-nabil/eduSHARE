@@ -2,8 +2,9 @@
 
 #top{
 	background-color: #a2dbfa;
+	position:absoulte;
 	margin:15px;
-	height:60px;
+	height:90px;
 	padding:10px;
 	text-align:left;
 	font-size:40px;
@@ -20,6 +21,7 @@
 	margin-left:295px;
 	margin-right:0px;
 	width:525px;
+	margin-bottom:20px;
 }
 
 #ssub{
@@ -189,6 +191,7 @@ label.light {
 }
 footer{
 	text-align:center;
+	padding:10px;
 }
 
 /*profile section*/
